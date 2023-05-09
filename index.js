@@ -1,6 +1,5 @@
 const http = require("http");
 const app = require("./home/index");
-require("mongoose");
 
 const server = http.createServer(app);
 const port = process.env.PORT || 1000;
